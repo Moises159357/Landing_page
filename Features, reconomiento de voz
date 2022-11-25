@@ -1,0 +1,25 @@
+Feature: Usuario desea búsquedas más sencillas en la aplicación móvil y web.
+
+Como usuario quiero tener más opciones de búsqueda avanzadas que me faciliten encontrar 
+las recetas que deseo 
+
+Scenario: El usuario busca sus recetas mediante la búsqueda por voz en el móvil
+
+Given el <usuario> se encuentra buscando una receta que se adecua a sus necesidades
+When el <usuario> se encuentre en la <pagina principal de la app> 
+And el <usuario> seleccione el icono de <busqueda por voz> 
+Then tendrá acceso al micrófono de su celular para tener <informacion de una receta en la app>
+
+Examples:
+    | usuario | pagina principal | busqueda por voz | informacion de una receta en la app |
+    |  Luis Miguel  | Cooktionary | arroz a la jardinera | Preparación de arroz a la jardinera: .... |
+
+Scenario: El usuario busca sus recetas mediante la búsqueda por voz en la página web
+Given el <usuario> se encuentra buscando una receta que le interese cocinar
+When el <usuario> se encuentre en la <pagina de principal del sitio web> 
+And el <usuario> seleccione el icono de <busqueda por voz> 
+Then tendrá acceso al micrófono de su celular para tener <informacion de una receta en la app>
+
+Examples:
+    | usuario | pagina principal | busqueda por voz | informacion de una receta en la app |
+    |  Carlos García  | Cooktionary | Pescado ahumado | Preparación del pescado ahumado: .... |
