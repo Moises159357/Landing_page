@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cooktionary</title>
+
+    <!--Bootstrap CCS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--BoxIcons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+  <body>
+    
+    <!--Navegación-->
+    <nav class="navbar navbar-expand-lg" style="background-color: #BF4904;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo Cooktionary" style="width:15% ;">
+            Cooktionary
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button type="button" class="btn btn-outline-light">Sign</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--Cabecera-->  
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center">
+                        <h1>¿No tiene experiencia en la cocina?</h1>
+                        <p>Prioriza tu tiempo y unete a nosotros</p>
+                        <button type="button" class="btn btn-outline-light" style="background-color: #BF4904;">Sign up</button>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Video-->
+    <section class="video">
+      <div class ="seccion_video">
+        <div class="VideoYoutube">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/pq3Otf0zbdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--About us-->
+    <section class="About-us">
+      <div class="container px-5">
+          <div class="row gx-5 align-items-center">
+              <div class="col-lg-6 order-lg-2">
+                  <div class="p-5"><img class="img-fluid rounded-circle" src="img/aboutus.jpg" alt="Imagen1" /></div>
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                  <div class="p-5">
+                      <h2 class="text-uppercase" style="color: #BF4904;">Sobre Nosotros...</h2>
+                      <p>Si tienes los ingredientes a la mano y no sabes que hacer con ellos te presentamos Cooktionary 
+                        una empresa que te ayuda a priorizar tu tiempo ofreciendote recetas con los productos que tengas 
+                        en tu hogar.</p>
+                      <p>Solo basta registrarte y listo pódras disfrutas de las mejores recetas nunca antes vistas.</p> 
+                      <button type="button" class="btn btn-outline-secondary btn-lg text-white" >See More</button>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+      <!--Servicios-->
+      <section class="page-section Servicios">
+        <div class="container">
+            
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase text-white tituloPrincipal">Servicios</h2>
+                <div class="linea1"></div>
+            </div>
+            <section class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card text-center" style="background-color: #F0C453;">
+                      <div class="card-body">
+                        <img src="img/servicios1.png" alt="Servicios1" style="width:50%; ">
+                        <h3>Recetas</h3>
+                        <p>Busca entre las miles de recetas que tenemos para ti</p>
+                        <p style="color: #F0C453;;">i</p>
+                        <button type="button" class="btn btn-outline-light" style="background-color: #BF4904;">Ver más</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center" style="background-color: #F0C453;">
+                      <div class="card-body">
+                        <img src="img/servicios2.png" alt="Servicios2" style="width:50%; ">
+                        <h3>Forma parte de Cooktionary!</h3>
+                        <p>Quieres formar parte del equipo de Cooktionary</p>
+                        <button type="button" class="btn btn-outline-light" style="background-color: #BF4904;">Ver más</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center" style="background-color: #F0C453;">
+                      <div class="card-body">
+                        <img src="img/servicios3.png" alt="Servicios2" style="width:50%; ">
+                        <h3>Lo más visto</h3>
+                        <p>Revisa las recetas más populares acualmente en Cooktionary</p>
+                        <p style="color: #F0C453;;">i</p>
+                        <button type="button" class="btn btn-outline-light" style="background-color: #BF4904;">Ver más</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </div>
+    </section>
+
+    <!--Recetas1-->
+    <seccion class="recetas">
+      <div class="row">
+        <div class="col1">
+          <h2 class="subtitulo">DESCUBRE LO MÁS RECIENTE</h2>
+          <p>Aquí podrás visualizar las recetas las recetas más recientes compartidas por nuestros usuarios, ¡Qué esperas! Sé uno de esta gran comunidad, y conviértete uno de los mejores valorados de la plataforma.</p>
+        </div>
+
+        <div class="col2">
+          <div class="col2">
+            <img src="img/receta1.jpg" class="celda celda1">
+            <img src="img/receta2.jpg" class="celda celda2">
+            <img src="img/receta3.jpg" class="celda celda3">
+            <img src="img/receta4.jpg" class="celda celda4">
+          </div>
+        </div>
+
+      </div>
+    </seccion>
+
+    <!--Recetas-->
+    <section class="page-section Recetas">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase tituloPrincipal">Recetas</h2>
+          <div class="linea2"></div>
+        </div>
+
+          <!-- Recetas populares -->
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase text-black subtitulo">Recetas más populares esta semana</h2>
+          </div>
+          <section class="py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="card text-center" style="background-color: #fff;">
+                    <div class="card-body">
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/galletasnavideñas3.jpg" class="d-block w-100 imagenes1" alt="galletasnavideñas">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/galletas_navideñas.jpg" class="d-block w-100 imagenes1" alt="galletasnavideñas1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/galletasnavideñas2.jpg" class="d-block w-100 imagenes1" alt="galletasnavideñas2">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <h3 class="subtitulo2">Galletas navideñas</h3>
+                      <p>Aprende a preparar unas riquisimas galletas navieñas para esta temporada</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card text-center" style="background-color: #fff;">
+                    <div class="card-body">
+                      <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/pollohorno.jpg" class="d-block w-100 imagenes1" alt="polloalhorno">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/pollohorno2.jpg" class="d-block w-100 imagenes1" alt="polloalhorno1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/pollohorno3.jpg" class="d-block w-100 imagenes1" alt="polloalhorno2">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <h3 class="subtitulo2">Pollo al horno con verduras</h3>
+                      <p>Aprende esta receta de pollo al horno con verduras sencilla pero sabrosa</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card text-center" style="background-color: #fff;">
+                    <div class="card-body">
+                      <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/medallonespollo.jpg" class="d-block w-100 imagenes1" alt="pollo">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/medallonespollo2.jpg" class="d-block w-100 imagenes1" alt="pollo2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/medallonespollo3.jpg" class="d-block w-100 imagenes1" alt="pollo3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <h3 class="subtitulo2">Medallones de pollo a la crema</h3>
+                      <p>Esta receta es exquisita. Pruébalos tú también y sigue esta deliciosa receta.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="card text-center" style="background-color: #fff;">
+                    <div class="card-body">
+                      <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/pie-de-limon.jpg" class="d-block w-100 imagenes1" alt="piedelimon1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/piedelimon2.jpg" class="d-block w-100 imagenes1" alt="piedelimon2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/piedelimon3.jpg" class="d-block w-100 imagenes1" alt="ppiedelimon3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <h3 class="subtitulo2">Pie de limón</h3>
+                      <p>El pie de limón es de esos postres que les gustas a todos. Además, es facil de preparar</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!--Nuevas recetas-->  
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase text-black subtitulo">Nuevas recetas</h2>
+        </div>
+        <section class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/pizza.jpg" class="d-block w-100 imagenes1" alt="pizza">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/pizza2.png" class="d-block w-100 imagenes1" alt="pizza2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/pizza3.jpg" class="d-block w-100 imagenes1" alt="pizza3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Pizza casera</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls5" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/empanadas.jpg" class="d-block w-100 imagenes1" alt="empanadas1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/empanadas2.jpg" class="d-block w-100 imagenes1" alt="empanadas2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/empanadas3.jpg" class="d-block w-100 imagenes1" alt="empanadas3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Empanadas de carne</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls6" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/tarta.jpg" class="d-block w-100 imagenes1" alt="tarta">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/tarta2.jpg" class="d-block w-100 imagenes1" alt="tarta22">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/tarta3.jpg" class="d-block w-100 imagenes1" alt="tarta3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Tarta de galletas</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls7" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/tortilla.png" class="d-block w-100 imagenes1" alt="tortilla">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/tortilla2.jpg" class="d-block w-100 imagenes1" alt="tortilla2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/tortilla3.jpg" class="d-block w-100 imagenes1" alt="tortilla3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls7" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Tortilla de calabaza y queso</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="text-white"> i</p>
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls8" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/macarrones.jpg" class="d-block w-100 imagenes1" alt="macarrones">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/macarrones2.jpg" class="d-block w-100 imagenes1" alt="macarrones2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/macarrones3.jpg" class="d-block w-100 imagenes1" alt="gmacarrones3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls8" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Macarrones con queso</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls9" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/papahuancaina.jpg" class="d-block w-100 imagenes1" alt="papaHuancaina">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/papahuancaina2.jpg" class="d-block w-100 imagenes1" alt="papaHuancaina2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/papahuancaina3.jpg" class="d-block w-100 imagenes1" alt="papaHuancaina3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls9" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Papa a la huancaina</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls10" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/suspiro.jpg" class="d-block w-100 imagenes1" alt="suspiro a la limeña">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/suspiro2.jpg" class="d-block w-100 imagenes1" alt="suspiro a la limeña2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/suspiro3.jpg" class="d-block w-100 imagenes1" alt="suspiro a la limeña3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls10" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls10" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Suspiro a la limeña</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls11" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/waffles.png" class="d-block w-100 imagenes1" alt="waffles">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/waffles2.jpg" class="d-block w-100 imagenes1" alt="waffles2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/waffles3.jpg" class="d-block w-100 imagenes1" alt="waffles3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls11" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Waffles navideños</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="text-white"> i</p>
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls12" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/galletas.jpg" class="d-block w-100 imagenes1" alt="galletasavena">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/galletas2.jpg" class="d-block w-100 imagenes1" alt="galletasavena2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/galletas3.jpg" class="d-block w-100 imagenes1" alt="galletasavena3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls12" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls12" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Galletas de avena</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls13" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/arrozconpollo.jpg" class="d-block w-100 imagenes1" alt="arroz con pollo">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/arrozpollo2.jpg" class="d-block w-100 imagenes1" alt="arroz con pollo2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/arrozpollo3.jpg" class="d-block w-100 imagenes1" alt="arroz con pollo2">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls13" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls13" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Arroz con pollo</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls14" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/bizcocho.jpg" class="d-block w-100 imagenes1" alt="bizcocho">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/bizcocho2.jpg" class="d-block w-100 imagenes1" alt="bizcocho2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/bizcocho3.jpg" class="d-block w-100 imagenes1" alt="bizcocho3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls14" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls14" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Bizcocho de zanahoria</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="card text-center" style="background-color: #fff;">
+                  <div class="card-body">
+                    <div id="carouselExampleControls15" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/batido.jpg" class="d-block w-100 imagenes1" alt="batido">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/batido2.jpg" class="d-block w-100 imagenes1" alt="batido2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/batido3.jpg" class="d-block w-100 imagenes1" alt="batido3">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls15" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls15" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h3 class="subtitulo2">Batido de plátano y avena</h3>
+                  </div>
+                </div>
+              </div>
+              <p class="text-white">i</p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-outline-warning" type="button">Ver más recetas</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Categorias -->
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase text-black subtitulo">Categorías</h2>
+      </div>
+      <p class="text-white">i</p>
+      <div id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/desayuno.png" alt="desayuno" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoria</div>
+                            <div class="project-name">Desayunos</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/almuerzo.jpg" alt="almuerzo" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoría</div>
+                            <div class="project-name">Almuerzos</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/cena.jpg" alt="cena" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoría</div>
+                            <div class="project-name">Cenas</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/postres.jpg" alt="postres" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoría</div>
+                            <div class="project-name">Postres</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/ensaladas.jpg" alt="ensaladas" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Categoría</div>
+                            <div class="project-name">Ensaladas</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid imgCategorias" src="img/meriendas.jpg" alt="meriendas" />
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">Categoría</div>
+                            <div class="project-name">Meriendas</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div> 
+    </section>
+  
+    <!--Planes-->
+    <section class="page-section Planes">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase tituloPrincipal">Comenzar</h2>
+              <div class="linea2"></div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-6">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <img src="img/plan1.png" alt="Plan Gratuiro" style="width:30%; ">
+                  <h4 class="my-3">Gratuito</h4>
+                  <p class="text-muted">Navegarás por un espacio lleno de recetas con contenido nutricional de sus ingredientes.</p>
+                  <button type="button" class="btn btn-outline-warning">Sign up</button>
+              </div>
+              <div class="col-md-6">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <img src="img/vip.png" alt="Plan Vip" style="width:27%;">
+                  <h4 class="my-3">VIP</h4>
+                  <p class="text-muted">Podrás disfrutar sin anuncios y visualizar las últimas tendencias en recetas. Admás, podrás usar filtros especiales</p>
+                  <button type="button" class="btn btn-outline-warning">Sign up</button>
+              </div>
+          </div> 
+      </div>
+    </section>
+
+    <!--Descargas-->
+    <section class="page-section Descargas">
+      <div class="container">
+          <div class="text-center">
+              <p class="text-white">i</p>
+              <img src="img/logo.png" alt="Logo Cooktionary">
+              <h2 class="text-white">i</h2>
+              <h2 class="section-heading ">Descarga gratis Cooktionary !!!</h2>
+              <p class="text-white">i</p>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-6">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <img src="img/android.png" alt="Descargar para Android" style="width:50%; ">
+              </div>
+              <div class="col-md-6">
+                  <span class="fa-stack fa-4x">
+                      <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <img src="img/iOS.png" alt="Descargas para iOS" style="width:50%;">
+              </div>
+          </div>
+        <p class="text-white">i</p>  
+      </div>
+    </section>
+
+    <!--Contacto-->
+   <section class="py-5 Contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3 style="color: #BF4904;">Contáctanos</h3>
+          <p style="color: #BF4904;">
+            Si tienes dudas sobre los servicios que brindamos no dudes en dejarnos un mensaje. 
+          </p>
+          <form action="">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <i class="fas fa-user input-group-text"></i>
+              </div>
+              <input type="text" class="form-control" placeholder="Escribe tu nombre" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <i class="input-group-text"></i>
+              </div>
+              <input type="text" class="form-control" placeholder="Escribe tu correo electrónico" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <i class="fas fa-pencil-alt input-group-text"></i>
+              </div>
+              <textarea name="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-light" style="background-color: #BF4904; position: relative;">Send</button>
+          </form>
+        </div>
+        <div class="col-lg-3 align-self-center">
+          <img src="img/contacto.png" alt="">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Videos-->
+    <section class="Videos">
+      <div class="container px-5">
+        <div class="text-center">
+         <h2 class="section-heading text-uppercase tituloPrincipal">Videos</h2>
+        <div class="linea2"></div>
+      </div>
+      <div class="row gx-5 align-items-center">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4Z5BDuoVz1w" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="p-5">
+                  <h3 class="text-uppercase" style="color: #BF4904;">Video About the product</h3>
+                  <p>En el siguiente video se describe el modelo de negocio de la empresa y las 
+                    características principales de Cooktionary</p>
+                </div>
+          </div>
+      </div>
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4Z5BDuoVz1w" title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+                <h3 class="text-uppercase" style="color: #BF4904;">Video About the team</h3>
+                <p>En el siguiente video se presenta la bitacora del grupo, asi como tambien los testimonios de los miembros del equipo</p>
+              </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+    <div class="container p-3 Footer">
+    <div class="row text-center text-white">
+      <div class="col ml-auto text-black">
+        <i class='bx bxl-facebook-circle bx-md'></i>
+        <i class='bx bxl-twitter bx-md'></i>
+        <i class='bx bxl-youtube bx-md'></i>
+        <i class='bx bxl-instagram bx-md' ></i>
+        <p>Copyright &copy; 2022 All rights reserved Cooktionary</p>
+      </div>
+    </div>
+    </div>       
+    </footer>
+  </body>
+
+  <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
